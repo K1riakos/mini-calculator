@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Result: <span id="res"></span></h1>
+    <div id="container">
+      <div class="calc">
+        <input type="text" id="inp" />
+        <div class="btn-container">
+          <button onclick="dNum(1)">1</button>
+          <button onclick="dNum(2)">2</button>
+          <button onclick="dNum(3)">3</button>
+          <button onclick="dNum(4)">4</button>
+          <button onclick="dNum(5)">5</button>
+          <button onclick="dNum(6)">6</button>
+          <button onclick="dNum(7)">7</button>
+          <button onclick="dNum(8)">8</button>
+          <button onclick="dNum(9)">9</button>
+          <button onclick="plus()">+</button>
+          <button onclick="dNum(0)">0</button>
+          <button onclick="minus()">-</button>
+          <button class="span-2" onclick="clearScreen()">C</button>
+          <button onclick="result()">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
